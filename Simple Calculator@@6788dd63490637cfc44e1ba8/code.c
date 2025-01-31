@@ -25,7 +25,7 @@ int main() {
     else{
         ans = num1 / num2;
     }
-    printf("%d",ans);
+    printf(ans);
     return 0;
 }
 
