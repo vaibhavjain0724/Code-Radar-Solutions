@@ -10,8 +10,8 @@ int main() {
     char oper;
     int ans;
 
-    scanf("%d",&num1);
-    scanf("%d",&num2);
+    scanf(" %d",&num1);
+    scanf(" %d",&num2);
     scanf(" %c",&oper);
     if(oper == '+'){
         ans = num1 + num2;
