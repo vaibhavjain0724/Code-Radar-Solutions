@@ -12,7 +12,7 @@ int main() {
 
     scanf("%d",&num1);
     scanf("%d",&num2);
-    scanf("%ch",&oper);
+    scanf("%c",&oper);
     if(oper == "+"){
         ans = num1 + num2;
     }
