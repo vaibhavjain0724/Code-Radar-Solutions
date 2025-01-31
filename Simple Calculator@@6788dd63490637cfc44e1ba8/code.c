@@ -19,7 +19,7 @@ int main() {
     else if(oper == '-'){
         ans = num1 - num2;
     }
-    else if(oper == '*''){
+    else if(oper == '*'){
         ans = num1 * num2;
     }
     else{
