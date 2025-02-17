@@ -6,7 +6,7 @@ int main(){
 
 
     scanf("%d",&a);
-    if(a<<a.size()&1 == 1){
+    if(a<<31&1 == 1){
         printf("Set");
     }
     else{
