@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int a;
+    int b;
     scanf("%d",&b);
-    if(b>0){
+    if(b<0){
         printf("True");
     }
     else{
