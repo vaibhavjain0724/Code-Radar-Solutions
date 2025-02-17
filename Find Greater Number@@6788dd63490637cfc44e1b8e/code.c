@@ -7,6 +7,6 @@ int main(){
         printf("%d",a);
     }
     else{
-        printf(b);
+        printf("%d",b);
     }
 }
