@@ -1,8 +1,8 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int n;
-    scanf("%d",&n);
+    char n;
+    scanf("%c",&n);
     if(n >= 65 && n <= 90){
         printf("Lowercase");
     }
