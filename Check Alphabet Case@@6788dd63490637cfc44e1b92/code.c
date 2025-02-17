@@ -1,12 +1,13 @@
 // Your code here...
 #include <stdio.h>
+#include<ctype.h>
 int main(){
     char n;
     scanf("%c",&n);
-    if(n >= 65 && n <= 90){
+    if(isupper(n)){
         printf("Uppercase");
     }
-    else if(n > 90 ){
+    else if(isowler(n)){
         printf("Lowercase");
     }
     else{
