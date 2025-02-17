@@ -7,7 +7,7 @@ int main(){
     if(isupper(n)){
         printf("Uppercase");
     }
-    else if(isowler(n)){
+    else if(islower(n)){
         printf("Lowercase");
     }
     else{
