@@ -3,7 +3,7 @@
 int main(){
     int n,m,o;
     scanf("%d%d%d",&n,&m,&o );
-    if(n+m < o || m + o < n || o + n < m){
+    if(n+m <= o || m + o <= n || o + n <= m){
         printf("Invalid");
     }
     else{
