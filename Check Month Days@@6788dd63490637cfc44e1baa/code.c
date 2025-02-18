@@ -8,7 +8,7 @@ int main(){
             printf("%d", 31);
             break;
         case 2:
-            printf("%d",28):
+            printf("%d",28);
             break;
         case 4:  case 6: case 9: case 11:
             printf("%d",30):
