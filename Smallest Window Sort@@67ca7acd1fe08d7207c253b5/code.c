@@ -8,8 +8,8 @@ int findUnsortedSubarray(int arr[], int n){
         j++;
     }
     int l = 0 ; int r = n-1;
-    int first = n+1;
-    int second = n-1;
+    int first = 0;
+    int second = 0;
     for(int i = 0 ; i < n-1; i ++ ){
         if(arr[i+1] < arr[i]){
             first = i;
