@@ -3,7 +3,7 @@
 int findUnsortedSubarray(int arr[], int n){
     int arr2[n];
     int j = 0 ;
-    for(int i = n-1; i < n ; i ++){
+    for(int i = n-1; i > 0 ; i --){
         arr2[j] = arr[i];
         j++;
     }
