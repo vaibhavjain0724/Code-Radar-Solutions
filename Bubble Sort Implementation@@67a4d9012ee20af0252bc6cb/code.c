@@ -8,10 +8,11 @@ void bubbleSort(int arr[], int n){
             if(arr[j] < arr[i]){
                 min_index = j;
             }
-            int temp = arr[i];
-            arr[i] = arr[min_index];
-            arr[min_index] = temp;
+            
         }
+        int temp = arr[i];
+        arr[i] = arr[min_index];
+        arr[min_index] = temp;
 
     }
 }
