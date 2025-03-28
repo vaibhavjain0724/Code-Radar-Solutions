@@ -1,6 +1,6 @@
 // #include <stdio.h>
 
-void bubbleSort(int *arr[], int n){
+void bubbleSort(int arr[], int n){
     int min_index = 0 ;
     for(int i  = 0 ; i < n; i ++){
         min_index=  i;
@@ -9,8 +9,8 @@ void bubbleSort(int *arr[], int n){
                 min_index = j;
             }
             int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
+            arr[i] = arr[min_index];
+            arr[min_index] = temp;
         }
 
     }
