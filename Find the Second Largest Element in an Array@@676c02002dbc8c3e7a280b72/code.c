@@ -11,9 +11,10 @@ int main(){
     }
     int smax = -1;
     for(int i = 0; i < n ; i ++){
-        if(arr[i] >max );
+        if(arr[i] >max ){
         smax=max;
         max= arr[i];
+        }
     }
     printf("%d", smax);
 }
