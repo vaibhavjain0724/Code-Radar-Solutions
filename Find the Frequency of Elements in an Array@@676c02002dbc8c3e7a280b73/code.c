@@ -20,11 +20,10 @@ int main(){
     for(int i = 0 ; i < n ; i++){
         arr2[arr[i]]++;
     }
-    for(int i = 0; i <= max; i++ ){
-        if(arr2[arr[i]] != 0){
+    for(int i = 0; i < n; i++ ){
+        
             printf("%d %d", arr[i],arr2[arr[i]]);
             printf("\n");
-        }
     }
 
 }
