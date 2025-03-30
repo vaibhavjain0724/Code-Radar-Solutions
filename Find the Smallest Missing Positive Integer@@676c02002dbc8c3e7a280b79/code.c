@@ -20,7 +20,7 @@ int main(){
         }
     }
     int ans= 1;
-    for(int i = 0; i <= max; i++){
+    for(int i = 1; i <= max; i++){
         if(hash[i] == 0){
             ans = i;
             break;
