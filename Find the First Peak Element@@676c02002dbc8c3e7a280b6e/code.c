@@ -8,12 +8,19 @@ int main(){
     for(int i = 0; i < n ; i++){
         scanf("%d",&arr[i]);
     }
-    int peak = n-1;
+    int peak = -1;
     for(int i = 1 ; i < n-1 ; i++){
+        if(i == n-2){
+            if(arr[i] < arr[i+1]){
+                peak = arr[i+1];
+            }
+        }
+        else{
         if(arr[i] > arr[i-1] && arr[i] > arr[i +1]){
-            peak = i;
+            peak = arr[i];
             break;
         }
+        }
     }
-    printf("%d", arr[peak]);
+    printf("%d", peak);
 }
