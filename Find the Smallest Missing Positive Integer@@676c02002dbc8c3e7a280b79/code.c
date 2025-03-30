@@ -26,13 +26,13 @@ int main(){
             break;
         }
     }
-    bool one = false;
+    int one = 0;
     for(int i = 0 ; i < n ; i++){
         if(arr[i] == 1){
-            one = true;
+            one = 1;
         }
     }
-    if(arr[n-1] < 0 || one != true){
+    if(arr[n-1] < 0 || one != 1){
         printf("%d", 1);
     }
     else{
