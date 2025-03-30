@@ -19,7 +19,7 @@ int main(){
     }
     for(int i = 0; i <= max; i++ ){
         if(arr2[i] != 0){
-            printf("%d %d", max[i],i);
+            printf("%d %d", arr2[i],i);
             printf("\n");
         }
     }
