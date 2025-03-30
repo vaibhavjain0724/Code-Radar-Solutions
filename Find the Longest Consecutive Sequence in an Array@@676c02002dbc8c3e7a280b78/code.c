@@ -13,11 +13,11 @@ int main(){
         arr2[i] = 0;
     }
     for(int i = 0; i < n-1; i++){
-        if(arr[i+1] - arr[i] == 1){
+        if(arr[i+1] - arr[i] == 1 || arr[i] - arr[i+1] == 1 ) {
             count++;
             arr2[i] = count;
         }
-        else if(arr[i+1] - arr[i] == 0){
+        else{
             count = 0;
         }
     }
