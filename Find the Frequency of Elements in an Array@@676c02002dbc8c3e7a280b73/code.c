@@ -15,7 +15,7 @@ int main(){
     }
     int arr2[max+1];
     for(int i = 0 ; i <= max; i++){
-        max[i] = 0;
+        arr2[i] = 0;
     }
     for(int i = 0 ; i < n ; i++){
         arr2[arr[i]]++;
