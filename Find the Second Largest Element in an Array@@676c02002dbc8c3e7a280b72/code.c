@@ -23,7 +23,7 @@ int main(){
     }
     for(int i = n; i >= 0 ; i--){
         if(arr[i] < arr[i-1]){
-            ans = ar[i];
+            ans = arr[i];
             break;
         }
     }
