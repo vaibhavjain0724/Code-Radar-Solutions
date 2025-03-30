@@ -9,7 +9,7 @@ int main(){
     for(int i= 0; i < n ; i++){
         scanf("%d", &arr[i]);
     }
-    int max = -1;
+    int max =   INT_MIN;
     int smax = -1;
     for(int i = 0 ; i < n ; i++){
         if(arr[i] > max){
