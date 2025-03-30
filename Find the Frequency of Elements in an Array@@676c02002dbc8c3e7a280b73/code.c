@@ -21,9 +21,11 @@ int main(){
         arr2[arr[i]]++;
     }
     for(int i = 0; i < n; i++ ){
-        
+        if(arr2[arr[i]] != 0){
             printf("%d %d", arr[i],arr2[arr[i]]);
             printf("\n");
+            arr2[arr[i]] = 0;
+        }
     }
 
 }
