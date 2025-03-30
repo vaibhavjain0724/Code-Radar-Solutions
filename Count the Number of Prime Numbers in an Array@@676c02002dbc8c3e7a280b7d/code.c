@@ -13,6 +13,9 @@ int main(){
         if(arr[i] == 2){
             count++;
         }
+        else if(arr[i] <2){
+            
+        }
         else{
         for(int j = 2; j < arr[i] ;j++){
             if(arr[i] % j == 0){
