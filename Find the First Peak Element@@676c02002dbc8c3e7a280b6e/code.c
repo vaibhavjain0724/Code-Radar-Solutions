@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int peak;
-    for(int i = i ; i < n-1 ; i++){
+    for(int i = 1 ; i < n-1 ; i++){
         if(arr[i] > arr[i-1] && arr[i] < arr[i +1]){
             peak = 1;
             break;
