@@ -14,7 +14,7 @@ int main(){
             count++;
         }
         else{
-        for(int j = 2; j <= arr[i] /2;j++){
+        for(int j = 2; j < arr[i] ;j++){
             if(arr[i] % j == 0){
                 count--;
             }
