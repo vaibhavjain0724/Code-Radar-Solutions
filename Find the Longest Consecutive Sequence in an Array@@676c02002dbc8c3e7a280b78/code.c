@@ -27,7 +27,7 @@ int main(){
                 max_count = arr2[i];
             }
         }
-        printf("%d", max_count);
+        printf("%d", max_count+1);
     }
 
 
