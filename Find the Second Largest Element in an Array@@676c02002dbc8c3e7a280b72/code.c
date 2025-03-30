@@ -2,14 +2,13 @@
 #include <stdio.h>
 #include <limits.h>
 int main(){
-    int max = INT_MIN;
     int n;
+    int ans = -1;
     scanf("%d", &n);
     int arr[n];
     for(int i= 0; i < n ; i++){
         scanf("%d", &arr[i]);
     }
-    int arr2[n];
     int min_index;
     for(int i = 0 ; i < n ; i++){
         min_index = i;
@@ -22,5 +21,11 @@ int main(){
         arr[i] = arr[min_index];
         arr[min_index] = temp;
     }
-    printf("%d", arr[n-2]);
+    for(int i = n; i >= 0 ; i--){
+        if(arr[i] < arr[i-1]){
+            ans = ar[i];
+            break;
+        }
+    }
+    printf("%d", ans);
 }
