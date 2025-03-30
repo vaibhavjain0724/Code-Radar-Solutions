@@ -13,7 +13,7 @@ int main(){
             max = arr[i];
         }
     }
-    int arr2[max+1];
+    int arr2[max+1] ={0};
     for(int i = 0 ; i < n ; i++){
         arr2[arr[i]]++;
     }
