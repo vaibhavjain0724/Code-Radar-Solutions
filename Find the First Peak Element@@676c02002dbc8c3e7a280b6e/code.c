@@ -17,9 +17,8 @@ int main(){
             else if(arr[i] > arr[i-1] && arr[i] > arr[i +1]){
             peak = arr[i];
             break;
-            else{
-                
             }
+            
         }
         else{
         if(arr[i] > arr[i-1] && arr[i] > arr[i +1]){
