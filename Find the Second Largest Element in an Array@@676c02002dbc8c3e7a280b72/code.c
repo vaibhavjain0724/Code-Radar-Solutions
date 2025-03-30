@@ -1,4 +1,6 @@
 // Your code here...
+#include <stdio.h>
+#include <limits.h>
 int main(){
     int max = INT_MIN;
     int n;
