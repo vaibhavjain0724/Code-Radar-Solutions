@@ -11,7 +11,7 @@ int main(){
     scanf("%d", &k);
     int arr2[n];
     for(int i = 0 ; i < n ; i++){
-        arr2[i+k%n] = arr[i];
+        arr2[(i+k)%n] = arr[i];
     }
     for(int i = 0 ; i < n; i++){
         printf("%d ", arr2[i]);
