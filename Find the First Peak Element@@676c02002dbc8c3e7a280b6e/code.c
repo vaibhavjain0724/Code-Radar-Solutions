@@ -13,11 +13,9 @@ int main(){
         if(i == n-2){
             if(arr[i] < arr[i+1]){
                 peak = arr[i+1];
-                break;
             }
             else if(arr[i] > arr[i-1] && arr[i] > arr[i +1]){
                 peak = arr[i];
-                break;
             }
             
         }
