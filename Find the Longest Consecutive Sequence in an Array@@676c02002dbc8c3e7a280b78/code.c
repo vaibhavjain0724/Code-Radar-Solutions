@@ -13,9 +13,9 @@ int main(){
         arr2[i] = 0;
     }
     for(int i = 0; i < n-1; i++){
-        if(arr[i+1] - arr[i] == 0){
+        if(arr[i+1] - arr[i] == 1){
             count++;
-            arr[i] = count;
+            arr2[i] = count;
         }
         else if(arr[i+1] - arr[i] == 0){
             count = 0;
