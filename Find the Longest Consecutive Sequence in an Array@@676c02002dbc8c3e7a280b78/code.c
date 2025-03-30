@@ -20,6 +20,7 @@ int main(){
         else if(arr[i+1] - arr[i] == 0){
             count = 0;
         }
+    }
         int max_count = 0;
         for(int i = 0; i < n ;i++){
             if(arr2[i] > max_count ){
