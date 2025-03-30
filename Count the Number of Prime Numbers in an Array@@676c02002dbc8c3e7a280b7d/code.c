@@ -22,5 +22,10 @@ int main(){
         count++;
         }
     }
+    if(count <= 0){
+        printf("%d", 0);
+    }
+    else{
     printf("%d", count);
+    }
 }
