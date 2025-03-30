@@ -21,5 +21,10 @@ int main(){
         }
         
     }
+    if(n == 1 || smax == INT_MIN){
+        printf("%d", -1);
+    }
+    else{
     printf("%d",smax);
+    }
 }
