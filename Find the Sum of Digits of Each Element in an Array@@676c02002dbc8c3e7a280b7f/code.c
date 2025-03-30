@@ -1,5 +1,5 @@
 // Your code here...
-int sumofDigits(int nun){
+int sumofDigits(int num){
     int sum = 0;
     while(num > 0){
         int temp = num %10;
