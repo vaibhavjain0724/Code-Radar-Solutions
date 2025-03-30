@@ -2,10 +2,20 @@
 #include <stdio.h>
 int sumofDigits(int num){
     int sum = 0;
+    if(num > 0){
     while(num > 0){
         int temp = num %10;
         sum += temp;
         num /= 10;
+    }
+    }
+    else if(num < 0){
+         while(num < 0){
+        int temp = num %10;
+        sum+= 0- temp;
+        num /= 10;
+    }
+    
     }
     return sum;
 }
