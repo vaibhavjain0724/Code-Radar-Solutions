@@ -27,5 +27,5 @@ int main(){
             break;
         }
     }
-    printf("%d", ans);
+    printf("%d", arr[n-2]);
 }
