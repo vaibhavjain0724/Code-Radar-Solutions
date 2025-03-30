@@ -21,11 +21,21 @@ int main(){
     }
     int majority = INT_MIN;
     int majority_index= -1;
-    for(int i = 0; i < max; i++){
+    int dupes;
+    for(int i = 0; i <= max; i++){
         if(hash[i] > majority){
             majority = hash[i];
             majority_index = i;
         }
+        else if(hash[i] == majority){
+            dupes=hash[i];
+        }
     }
+    
+    if(dupes == majority){
+        printf("%d", -1 );
+    }
+    else{
     printf("%d", majority_index);
+    }
 }
