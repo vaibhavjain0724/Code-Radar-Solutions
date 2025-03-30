@@ -9,23 +9,17 @@ int main(){
     for(int i= 0; i < n ; i++){
         scanf("%d", &arr[i]);
     }
-    int min_index;
+    int max = -1;
+    int smax = -1;
     for(int i = 0 ; i < n ; i++){
-        min_index = i;
-        for(int j = i + 1; j < n;j++){
-            if(arr[j] < arr[min_index]){
-                min_index = j;
-            }
+        if(arr[i] > max){
+            max= arr[i];
+            smax = -1;
         }
-        int temp = arr[min_index];
-        arr[i] = arr[min_index];
-        arr[min_index] = temp;
-    }
-    for(int i = n; i >= 0 ; i--){
-        if(arr[i] < arr[i-1]){
-            ans = arr[i];
-            break;
+        else if(arr[i] < max && arr[i] > smax){
+            smax= arr[i];
         }
+        
     }
-    printf("%d", arr[n-2]);
+    printf("%d",smax);
 }
