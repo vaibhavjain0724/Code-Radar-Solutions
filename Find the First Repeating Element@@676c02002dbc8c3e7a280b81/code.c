@@ -8,9 +8,14 @@ int main(){
         scanf("%d", &arr[n]);
     }
     int repeat = -1;
-    for(int i = 0; i < n-1; i++){
-        if(arr[i] == arr[i+1]){
-            repeat = arr[i];
+    for(int i = 0; i < n; i++){
+        for(int j = i +1; j < n; j++){
+            if(arr[i] == arr[j]){
+                repeat = arr[j]; 
+                break;
+            }
+        }
+        if(repeat != -1){
             break;
         }
     }
