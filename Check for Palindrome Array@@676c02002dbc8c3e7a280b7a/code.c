@@ -23,7 +23,7 @@
 
 
 #include<stdio.h>
-int palindrome(int arr[],int n){
+int palinndrome(int arr[],int n){
     int i=0;
     int j=n-1;
     while(i<=j){
@@ -43,7 +43,7 @@ int main()
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    if(palindrome(arr,n)){
+    if(palinndrome(arr,n)){
         printf("YES");
     }
     else{
