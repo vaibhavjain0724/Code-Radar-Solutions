@@ -19,7 +19,8 @@ int main()
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int count[2];
+    count[2];
     countEvenOdd(arr,n,count);
+
     printf("%d %d",count[0],count[1]);
 }
