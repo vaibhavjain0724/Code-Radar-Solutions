@@ -1,6 +1,6 @@
 // Your code here...
 #include <string.h>
-void selectionSort(char arr[][100], int n){
+void selectionSort(char *arr, int n){
     int min_index = 0;
     for(int i = 0; i < n ; i++){
         for(int j = 0; j < n ; j++){
