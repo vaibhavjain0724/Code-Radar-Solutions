@@ -4,6 +4,9 @@
 
 int compare_string(char* str1, char *str2){
     int i = 0;
+    if(str1 == NULL || str2 == NULL){
+        return 0;
+    }
 
     while(str1[i] && str2[i]){
         if(str1[i] < str2[i]){
