@@ -27,7 +27,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     char *str = "Sorted";
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n-1;i++){
         if(arr[i]>arr[i+1]){
             str = "Not Sorted";
         }
