@@ -29,7 +29,7 @@ int main()
     char *str = "Sorted";
     for(int i=0;i<n;i++){
         if(arr[i]>arr[i+1]){
-            str = "Not sorted";
+            str = "Not Sorted";
         }
     }
     printf("%s",str);
