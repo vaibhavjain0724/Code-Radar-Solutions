@@ -1,3 +1,4 @@
+#include<stdio.h>
 void countEvenOdd(int arr[],int n,int count[]){
     count[0] = 0;
     count[1] = 0;
