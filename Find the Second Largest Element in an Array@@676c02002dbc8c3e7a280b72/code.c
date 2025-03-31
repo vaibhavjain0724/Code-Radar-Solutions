@@ -43,11 +43,11 @@ int main()
     int max = INT_MIN;
     int smax = INT_MIN;
     for(int i=0;i<n;i++){
-        if(arr[i]>max){
+        if(max<arr[i]){
             smax = max;
             max = arr[i];
         }
-        else if(arr[i]<smax && arr[i]!=max){
+        else if(smax>arr[i] && arr[i]!=max){
             smax = arr[i];
         }
     }
@@ -55,6 +55,6 @@ int main()
         printf("%d",-1);
     }
     else{
-    printf("%d",smax);
+        printf("%d ",smax);
     }
 }
