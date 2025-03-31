@@ -32,10 +32,10 @@ int main()
     int target;
     scanf("%d",&target);
     int idx = -1
-    bool flag = false;
+    // bool flag = false;
     for(int i=0;i<n;i++){
         if(arr[i]==target){
-            flag = true;
+            // flag = true;
             idx = i;
             break;
         }
