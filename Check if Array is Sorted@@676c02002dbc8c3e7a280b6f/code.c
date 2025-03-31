@@ -32,5 +32,5 @@ int main()
             str = "Not Sorted";
         }
     }
-    printf("%d",str);
+    printf("%s",str);
 }
