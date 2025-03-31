@@ -20,25 +20,22 @@
 // }
 
 #include<stdio.h>
-#include<stdbool.h>
+
 int main()
 {
-    int n;
+    int n,x;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int target;
-    scanf("%d",&target);
-    int idx = -1
-    // bool flag = false;
+    scanf("%d",&x);
+    int idx = -1;
     for(int i=0;i<n;i++){
-        if(arr[i]==target){
-            // flag = true;
+        if(arr[i]==x){
             idx = i;
             break;
         }
-        
     }
+    printf("%d",idx);
 }
