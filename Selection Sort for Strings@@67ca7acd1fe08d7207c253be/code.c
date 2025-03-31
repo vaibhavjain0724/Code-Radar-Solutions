@@ -8,7 +8,7 @@ int compare_string(char* str1, char *str2){
         if(str1[i] > str2[i]){
             return 2;
         }
-        else if(str1[i] > str2[i]){
+        else if(str1[i] < str2[i]){
             i++;
         }
         else{
@@ -17,7 +17,7 @@ int compare_string(char* str1, char *str2){
         return 0;
     }
 }
-void selectionSort(char *arr, int n){
+void selectionSort(char *arr[], int n){
     int min_index = 0;
     for(int i = 0; i < n ; i++){
         for(int j = 0; j < n ; j++){
