@@ -21,5 +21,5 @@ int main()
     }
     int count[2];
     countEvenOdd(arr,n,count);
-    printf("%d %d",count[1],count[0]);
+    printf("%d %d",count[0],count[1]);
 }
