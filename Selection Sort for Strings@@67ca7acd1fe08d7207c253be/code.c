@@ -20,7 +20,7 @@ int compare_string(char* str1, char *str2){
 void selectionSort(char *arr[], int n){
     int min_index = 0;
     for(int i = 0; i < n ; i++){
-        for(int j = 0; j < n ; j++){
+        for(int j = i+1; j < n ; j++){
             if(compare_string(arr[min_index], arr[i]) == 2){
                 min_index = j;
             }
