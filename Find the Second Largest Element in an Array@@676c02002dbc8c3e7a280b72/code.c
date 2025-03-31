@@ -55,6 +55,6 @@ int main()
         printf("%d",-1);
     }
     else{
-        printf("%d",smax);
+    printf("%d",smax);
     }
 }
