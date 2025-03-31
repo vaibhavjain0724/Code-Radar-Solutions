@@ -1,5 +1,5 @@
 #include <stdio.h>
-void selectionSort(char arr[][100], int n) {
+void selectionsort(char arr[][100], int n) {
     int min_index = 0;
     for(int i = 0; i < n; i++) {
         min_index = i;
