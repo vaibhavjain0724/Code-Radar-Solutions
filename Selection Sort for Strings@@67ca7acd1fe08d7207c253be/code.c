@@ -9,9 +9,9 @@ void selectionSort(char arr[][100], int n) {
             }
         }
         char temp[100];
-        temp = arr[i];
-        arr[i] = arr[min_index];
-        arr[min_index] = temp;
+        strcpy(temp, arr[i]);
+        strcpy(arr[i], arr[min_index]);
+        strcpy(arr[min_index], temp);
     }
 }
 
