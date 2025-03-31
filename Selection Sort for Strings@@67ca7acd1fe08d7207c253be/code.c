@@ -1,38 +1,10 @@
-// #include <string.h>
-
-// int compare_string(char* str1, char *str2) {
-//     int i = 0;
-//     if(str1 == NULL || str2 == NULL) {
-//         return 0;
-//     }
-    
-//     while(str1[i] && str2[i]) {
-//         if(str1[i] < str2[i]) {
-//             return -1;
-//         }
-//         else if(str1[i] == str2[i]) {
-//             i++;
-//         }
-//         else {
-//             return 1;
-//         }
-//     }
-    
-//     if(str1[i] == '\0' && str2[i] == '\0') {
-//         return 0; 
-//     } else if(str1[i] == '\0') {
-//         return -1; 
-//     } else {
-//         return 1;  
-//     }
-// }
 
 void selectionSort(char *arr[], int n) {
     int min_index = 0;
     for(int i = 0; i < n; i++) {
         min_index = i;
         for(int j = i+1; j < n; j++) {
-            if(strcmp(arr[j], arr[min_index])) {
+            if(arr[j] != NULL && arr[min_index] != NULL && strcmp(arr[j], arr[min_index]) < 0){
                 min_index = j;
             }
         }
