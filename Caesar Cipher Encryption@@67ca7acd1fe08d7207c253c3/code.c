@@ -8,7 +8,7 @@ char* caesarCipher(char message[100],int shift,char encrypted[100]){
     
     while(message[i] != '\0'){
         if(isalpha(message[i])){            
-            encrypted[i] = (message[i] - base + shift) % 26) + base; 
+            encrypted[i] = ((message[i] - base + shift) % 26) + base; 
         }
         i++;
 
