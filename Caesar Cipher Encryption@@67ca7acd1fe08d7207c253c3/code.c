@@ -11,8 +11,12 @@ char* caesarCipher(char message[100],int shift,char encrypted[100]){
             base = message[i] ? 'a' : 'A';           
             encrypted[i] = ((message[i] - base + shift) % 26) + base; 
         }
+        else{
+            encrypted[i] = message[i];
+        }
         i++;
 
     }
+    encrypted[i] = '\0';
     return encrypted;
 }
