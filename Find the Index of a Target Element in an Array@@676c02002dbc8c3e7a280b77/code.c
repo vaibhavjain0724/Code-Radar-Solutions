@@ -39,11 +39,6 @@ int main()
             idx = i;
             break;
         }
-        if(flag==false){
-            printf("%d",x);
-        }
-        else{
-            printf("%d",idx)
-        }
+        
     }
 }
