@@ -11,12 +11,12 @@ int main(){
     int max;
     int first = 0 ; int second = 1;
     for(int i = 0; i < n;i++){
-        int max = i +1;
+        max = i +1;
         for(int j = i +1; j < n ; j++){
             if(arr[j] > arr[max]){
                 max = j;
             }
-            arr[i] == arr[max];
+            arr[i] = arr[max];
         }
     }
     arr[n-1] = -1;
