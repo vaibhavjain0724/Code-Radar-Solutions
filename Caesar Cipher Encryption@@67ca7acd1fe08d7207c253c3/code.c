@@ -2,11 +2,13 @@
 
 #include <string.h>
 #include <ctype.h>
-char caesarCipher(char message[100],int shift,char encrypted[100]){
+char* caesarCipher(char message[100],int shift,char encrypted[100]){
     int i = 0;
+    int base = 97;
+    
     while(message[i] != NULL){
         if(isalpha(message[i])){            
-            strcpy(encrypted[i],(message[i]+shift)); 
+            encrypted[i] = (()message[i] - base + shift) % 26) + base; 
         }
         i++;
 
