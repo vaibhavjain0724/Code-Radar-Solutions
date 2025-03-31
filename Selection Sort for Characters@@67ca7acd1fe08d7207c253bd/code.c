@@ -7,10 +7,11 @@ void selectionSort(char arr[], int n){
             if(arr[min_index] > arr[j]){
                 min_index = j;
             }
-            char temp = arr[i];
-            arr[i] = arr[min_index];
-            arr[min_index] = temp;
+            
         }
+        char temp = arr[i];
+        arr[i] = arr[min_index];
+        arr[min_index] = temp;
     }
 }
 void printArray(char arr[], int n){
