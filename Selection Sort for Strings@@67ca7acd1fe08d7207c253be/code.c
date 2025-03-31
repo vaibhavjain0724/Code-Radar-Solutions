@@ -1,33 +1,38 @@
-// Your code here...
-// #include <string.h>
+#include <string.h>
 
-
-int compare_string(char* str1, char *str2){
+int compare_string(char* str1, char *str2) {
     int i = 0;
-    if(str1 == NULL || str2 == NULL){
+    if(str1 == NULL || str2 == NULL) {
         return 0;
     }
-
-    while(str1[i] && str2[i]){
-        if(str1[i] < str2[i]){
+    
+    while(str1[i] && str2[i]) {
+        if(str1[i] < str2[i]) {
             return -1;
         }
-        else if(str1[i] == str2[i]){
+        else if(str1[i] == str2[i]) {
             i++;
         }
-        else{
+        else {
             return 1;
         }
     }
-        return -1;
-
+    
+    if(str1[i] == '\0' && str2[i] == '\0') {
+        return 0; 
+    } else if(str1[i] == '\0') {
+        return -1; 
+    } else {
+        return 1;  
+    }
 }
-void selectionSort(char *arr[], int n){
+
+void selectionSort(char *arr[], int n) {
     int min_index = 0;
-    for(int i = 0; i < n ; i++){
+    for(int i = 0; i < n; i++) {
         min_index = i;
-        for(int j = i+1; j < n ; j++){
-            if(compare_string(arr[min_index], arr[j]) > 0){
+        for(int j = i+1; j < n; j++) {
+            if(compare_string(arr[min_index], arr[j]) > 0) {
                 min_index = j;
             }
         }
@@ -36,8 +41,9 @@ void selectionSort(char *arr[], int n){
         arr[min_index] = temp;
     }
 }
-void printArray(char *arr[], int n){
-    for(int i = 0 ; i < n; i++){
+
+void printArray(char *arr[], int n) {
+    for(int i = 0; i < n; i++) {
         printf("%s\n", arr[i]);
     }
 }
