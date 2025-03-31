@@ -10,5 +10,5 @@ char caesarCipher(char message[100],int shift,char encrypted[100]){
                 strcpy(encrypted[i],message[i]-string); 
         }
     }
-    printf("%[^\n]s", encrypted);
+    return encrypted;
 }
