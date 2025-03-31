@@ -1,5 +1,5 @@
 // Your code here...
-#include <strcmp>
+#include <string.h>
 void selectionSort(char arr[][100], int n){
     int min_index = 0;
     for(int i = 0; i < n ; i++){
