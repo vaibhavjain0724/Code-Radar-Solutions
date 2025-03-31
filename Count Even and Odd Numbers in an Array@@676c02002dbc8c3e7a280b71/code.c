@@ -19,7 +19,7 @@ int main()
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int countEvenOdd[2];
+    int count[2];
     countEvenOdd(arr,n,count);
     printf("%d %d",count[1],count[0]);
 }
