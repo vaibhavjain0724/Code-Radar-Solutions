@@ -3,7 +3,7 @@
 #include <limits.h>
 int main(){
     int n;
-    int ans = -1;
+    // int ans = -1;
     scanf("%d", &n);
     int arr[n];
     for(int i= 0; i < n ; i++){
