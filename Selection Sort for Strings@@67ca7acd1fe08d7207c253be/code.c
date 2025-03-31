@@ -14,8 +14,9 @@ int compare_string(char* str1, char *str2){
         else{
             return 1;
         }
-        return -1;
     }
+        return -1;
+
 }
 void selectionSort(char *arr[], int n){
     int min_index = 0;
