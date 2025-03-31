@@ -30,7 +30,7 @@ void selectionSort(char *arr[], int n){
         arr[min_index ] = temp;
     }
 }
-void printArray(char arr[][100], n){
+void printArray(char arr[][100], int n){
     for(int i = 0 ; i < n; i++){
         printf("%s", arr[i]);
     }
