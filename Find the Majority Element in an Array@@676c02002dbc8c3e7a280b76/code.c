@@ -74,11 +74,12 @@ int main(){
                 c_count++;
             }
         }
-        if(c_count >= n/2){
+        
+    }
+    if(c_count >= n/2){
             printf("%d", candidate);
         }
         else{
             printf("%d", -1);
         }
-    }
 }
