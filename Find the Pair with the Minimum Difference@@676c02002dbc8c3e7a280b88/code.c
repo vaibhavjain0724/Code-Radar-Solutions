@@ -23,6 +23,13 @@ int main(){
         printf("%d", -1);    
     }
     else{
-    printf("%d %d", a, b);
+        if(b < a){
+            printf("%d %d", b,  a);
+
+
+        }
+        if(a < b){
+            printf("%d %d", a, b);
+        }
     }
 }
