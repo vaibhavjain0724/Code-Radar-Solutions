@@ -32,7 +32,6 @@ int main(){
         if(hash[i] > 0){
             for(int i = 0; i < hash[i]; i++){
                 printf("%d", i);
-                hash[i]--;
             }
         }
     }
