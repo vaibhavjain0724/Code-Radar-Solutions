@@ -10,10 +10,12 @@ int main(){
         scanf("%d", &arr[i]);
     }
     int diff =INT_MAX ;
+    int a; int b;
     for(int i = 0 ; i< n; i++){
         for(int j = i + 1; j < n; j++){
             if(abs(arr[j]-arr[i]) < diff){
                 diff = abs(arr[j]-arr[i]);
+                int a = i; int b = j;
             }
         }
     }
@@ -21,6 +23,6 @@ int main(){
         printf("%d", -1);    
     }
     else{
-    printf("%d", diff);
+    printf("%d %d", a, b);
     }
 }
