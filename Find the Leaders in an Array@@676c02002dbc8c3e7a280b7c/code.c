@@ -18,7 +18,7 @@ int main(){
     for(int i = 0; i <= max; i++){
         hash[i] = 0;
     }  
-    for(int i= n-1 ; i>= 0; i--){
+    for(int i= 0 ; i< n; i++){
         for(int j = i + 1; j < n; j++){
             if(arr[i] < arr[j]){
                 
