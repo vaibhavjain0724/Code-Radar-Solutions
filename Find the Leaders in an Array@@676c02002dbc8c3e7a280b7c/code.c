@@ -30,7 +30,7 @@ int main(){
     }
     for(int i = max ; i >=0;  i--){
         if(hash[i] > 0){
-            for(int i = 0; i < hash[i]; i++){
+            for(int j = 0; j < hash[i];j ++){
                 printf("%d", i);
             }
         }
