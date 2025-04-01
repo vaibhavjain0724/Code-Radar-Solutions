@@ -21,13 +21,14 @@ int main(){
     for(int i= n-1 ; i>= 0; i--){
         for(int j = i + 1; j < n; j++){
             if(arr[i] < arr[j]){
-                hash[arr[i]]++;
+                
                 i++;
             }
+            hash[arr[i]]++;
         }
     }
     for(int i = 0 ; i <= max;  i++){
-        if(hash[i] == 0){
+        if(hash[i] > 0){
             printf("%d ", i);
         }
     }
