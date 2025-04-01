@@ -16,7 +16,9 @@ int main(){
             if(abs(arr[j]-arr[i]) < diff){
                 diff = abs(arr[j]-arr[i]);
                 a = arr[i]; b = arr[j];
+                break;
             }
+
         }
     }
     if(n == 1){
