@@ -12,11 +12,11 @@ int main(){
         if(arr[i] > max){
             max = arr[i];
         }
+    }
     int hash[max+1];
     for(int i = 0; i <= max; i++){
         hash[i] = 0;
     }  
-    }
     int arr2[n];
     int leader= arr[n-1];
     for(int i= n-1 ; i>= 0; i--){
