@@ -28,7 +28,7 @@ int main(){
 
 
         }
-        if(a < b){
+        else{
             printf("%d %d", a, b);
         }
     }
