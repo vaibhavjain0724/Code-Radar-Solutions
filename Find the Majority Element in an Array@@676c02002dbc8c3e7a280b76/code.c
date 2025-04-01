@@ -44,7 +44,7 @@
 // }
 
 #include <stdio.h>
-#include <climits.h>
+#include <limits.h>
 int main(){
     int n;
     scanf("%d", &n);
