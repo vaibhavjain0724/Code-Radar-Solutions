@@ -10,12 +10,12 @@ int main(){
         scanf("%d", &arr[i]);
     }
     int diff =INT_MAX ;
-    int a; int b;
+    int a = 0; int b = 0;
     for(int i = 0 ; i< n; i++){
         for(int j = i + 1; j < n; j++){
             if(abs(arr[j]-arr[i]) < diff){
                 diff = abs(arr[j]-arr[i]);
-                int a = arr[i]; int b = arr[j];
+                a = arr[i]; b = arr[j];
             }
         }
     }
