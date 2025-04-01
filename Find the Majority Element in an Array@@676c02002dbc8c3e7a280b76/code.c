@@ -48,6 +48,7 @@
 int main(){
     int n;
     scanf("%d", &n);
+    int count = 0;
     int arr[n]; int visited[n];
     for(int i = 0; i < n ; i++){
         visited[i] = 0;
