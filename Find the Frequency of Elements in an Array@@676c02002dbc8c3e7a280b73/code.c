@@ -69,7 +69,7 @@ int main(){
         scanf("%d", &arr[i]);
     }
     for(int i = 0 ; i < n ; i++){
-        if(visited[i] = 1){
+        if(visited[i] == 1){
             continue;
         }
         int count = 1;
@@ -77,6 +77,7 @@ int main(){
             if(arr[i]  == arr[j]){
                 count++;
             }
+            visited[i] = 1;
         }
         printf("%d %d\n",arr[i], count);
     }
