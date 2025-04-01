@@ -31,7 +31,7 @@ int main(){
     for(int i = max ; i >=0;  i--){
         if(hash[i] > 0){
             for(int j = 0; j < hash[i];j ++){
-                printf("%d", i);
+                printf("%d ", i);
             }
         }
     }
