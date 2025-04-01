@@ -66,7 +66,7 @@ int main(){
     int visited[n];
     for(int i = 0 ; i < n ; i++){
         visited[i] = 0;
-        scanf("%d", &arr[i])''
+        scanf("%d", &arr[i]);
     }
     for(int i = 0 ; i < n ; i++){
         if(vistied[i] = 1){
