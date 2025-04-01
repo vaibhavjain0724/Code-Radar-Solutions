@@ -54,7 +54,7 @@ int main(){
         visited[i] = 0;
         scanf("%d", &arr[i]);
     }
-    int cand = INT_MIN;
+    int candidate = INT_MIN;
     for(int i = 0 ; i < n ; i++){
         if(count ==0 ){
             candidate = arr[i];
