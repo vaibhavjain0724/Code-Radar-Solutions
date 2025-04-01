@@ -68,14 +68,15 @@ int main(){
                 count--;
             }
         }
-        int c_count = 0;
+        
+        
+    }
+    int c_count = 0;
         for(int i = 0; i < n ; i++){
             if(arr[i] == candidate){
                 c_count++;
             }
         }
-        
-    }
     if(c_count >= n/2){
             printf("%d", candidate);
         }
