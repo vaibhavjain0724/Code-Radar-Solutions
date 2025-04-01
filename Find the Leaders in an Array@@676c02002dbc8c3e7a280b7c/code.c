@@ -24,10 +24,11 @@ int main(){
                 
                 i++;
             }
-            hash[arr[i]]++;
         }
+        hash[arr[i]]++;
+
     }
-    for(int i = 0 ; i <= max;  i++){
+    for(int i = max ; i >=0;  i--){
         if(hash[i] > 0){
             printf("%d ", i);
         }
