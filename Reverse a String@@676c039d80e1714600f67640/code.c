@@ -4,6 +4,7 @@
 int main(){
     char a[100];
     scanf("%s",a);
+    int l = 0;
     int n = strlen(a);
     char b[n];
     while(l < n ){
