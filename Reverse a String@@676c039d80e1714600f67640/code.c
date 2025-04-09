@@ -1,7 +1,7 @@
 // Your code here...
 int main(){
     char a[100];
-    cin >> a;
+    scanf("%s"&a);
     int n = 1;
     for(int i =0 ; i < 100; i++){
         if(a[i] == '/0') break;
