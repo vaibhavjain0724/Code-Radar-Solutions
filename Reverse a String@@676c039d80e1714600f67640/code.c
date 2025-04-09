@@ -7,7 +7,7 @@ int main(){
     int l = 0;
     int n = strlen(a);
     int k = n;
-    char b[n];
+    char b[n+1];
     while(l <  k){
         b[l] = a[n-1];
         l++; n--; 
