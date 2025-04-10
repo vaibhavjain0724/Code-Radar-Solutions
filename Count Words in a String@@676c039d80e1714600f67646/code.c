@@ -10,10 +10,10 @@ int main(){
         count = 0;
     }
     for(int i = 0 ; i < strlen(str) ; i++){
-        if(str[i] == " "){
+        if(str[i] == ' '){
             count++;
         }
     }
-    printf("%d"count);
+    printf("%d",count);
 
 }
