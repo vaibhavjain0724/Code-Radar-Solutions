@@ -9,10 +9,17 @@ int main(){
     if(strlen(str) == 0){
         count = 0;
     }
-    for(int i = 0 ; i < strlen(str) ; i++){
-        if(str[i] == ' '){
+    // for(int i = 0 ; i < strlen(str) ; i++){
+    //     if(str[i] == ' '){
+    //         count++;
+    //     }
+    // }
+    int l = 0;
+    while(str[l] != '\0'){
+        if(str[l] == ' '){
             count++;
         }
+        l++;
     }
     printf("%d",count);
 
