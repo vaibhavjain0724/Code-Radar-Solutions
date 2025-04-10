@@ -4,7 +4,7 @@
 int main(){
     char a[100];
     char b[100];
-    scanf("%[^\n]",a);
+    scanf("%s",a);
     scanf("%s",b);
     char c[200];
     int n = strlen(a);
