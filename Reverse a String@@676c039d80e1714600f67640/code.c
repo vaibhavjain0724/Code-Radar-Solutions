@@ -5,11 +5,11 @@ int main(){
     char a[100];
     scanf("%s",a);
     int l = 0;
-    int n = strlen(a);
-    int k = n;
-    char b[n+1];
+
+    int k = strlen(a);
+    
     while(l <  k){
-        b[l] = a[n-1];
+        a[l] = a[n-1];
         l++; n--; 
     }
     printf("%s",b);
