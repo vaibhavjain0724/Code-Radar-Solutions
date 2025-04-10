@@ -10,7 +10,7 @@ int main(){
     while(str[n] != '\0'){
         n++;
     }
-    int e = n;
+    int e = n-1;
     int s = 0;
     char* ans = "Yes";
     while(s < e){
