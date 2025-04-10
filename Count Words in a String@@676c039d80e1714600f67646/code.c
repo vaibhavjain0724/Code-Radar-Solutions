@@ -19,8 +19,8 @@ int main(){
     // }
     int count = 0 ;
     int f = 0; int s = 1;
-    if(strlen(string) != '\0'){
-        while(string[s] != " "){
+    if(strlen(string) != 0{
+        while(string[s] != '\0'){
             if(string[f] != " " && string[s] == " "){
                 count++;
             }
