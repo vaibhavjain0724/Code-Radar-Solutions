@@ -15,8 +15,8 @@ int main(){
     }
     int l = 1;
     char *ans = "Yes";
-    while(a[l] != '\0' || b[l] != '\0' ){
-        if(a[l] != b[l]){
+    while(ha[l] != '\0' || hb[l] != '\0' ){
+        if(ha[l] != hb[l]){
             ans= "No";
             break;
         }
