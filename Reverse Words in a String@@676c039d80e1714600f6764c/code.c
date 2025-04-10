@@ -23,7 +23,7 @@ int main(){
             if(a[i-1 != 32] && a[i] == 32){
                 k = i;
                 char *substr;
-                strncpy(substr, &str[m], k-m);
+                strncpy(substr, &a[m], k-m);
                 substr[k] = '\0';
                 ans = ans + " " + reverse(substr);
             }
