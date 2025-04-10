@@ -35,6 +35,6 @@ int main(){
             m = i+1;
         }
     }
-    printf("%s", ans);
+    printf("%s", a);
 
 }
