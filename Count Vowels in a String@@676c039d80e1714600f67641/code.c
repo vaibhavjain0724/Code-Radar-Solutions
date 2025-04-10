@@ -4,7 +4,7 @@
 #include <string.h>
 
 int main(){
-    char[100] a;
+    char a[100];
     scanf("%s", a);
     int n = strlen(a);
     int count = 0;
