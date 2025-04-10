@@ -19,7 +19,7 @@ int main(){
     for(int i = 1 ; i < 27; i++){
         if(arr[i] > max){
             max = arr[i];
-            index = i;
+            index = i+71;
         }
     }
     printf("%c", index);
