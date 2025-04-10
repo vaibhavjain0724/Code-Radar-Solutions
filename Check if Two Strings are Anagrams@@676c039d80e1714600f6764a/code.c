@@ -8,10 +8,10 @@ int main(){
     scanf("%s", b);
     int ha[27], hb[27];
     for(int i = 0; i < strlen(a); i++){
-        ha[a[i]-71]++;
+        ha[a[i]-96]++;
     }
     for(int i = 0; i < strlen(b); i++){
-        hb[b[i]-71]++;
+        hb[b[i]-96]++;
     }
     int l = 1;
     char *ans = "Yes";
