@@ -1,10 +1,18 @@
 // Your code here...
 #include <stdio.h>
+#include <string.h>
 int main(){
     char a[100];
     char b[100];
     scanf("%s%s",a,b);
     char c[200];
-    c = a +b;
-    printf("%s"c);
+    int n = strlen(a);
+    int m = strlen(b);
+    for(int i = 0 ; i < n ; i++){
+        c[i] = first[i];
+    }
+    for(int i = n; i < m ; i++){
+        c[i] = second[i-n];
+    }
+    printf("%s",c);
 }
