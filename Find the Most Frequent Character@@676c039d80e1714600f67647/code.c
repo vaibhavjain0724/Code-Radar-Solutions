@@ -15,11 +15,13 @@ int main(){
         l++;
     }
     int max = 0;
+    int index;
     for(int i = 1 ; i < 27; i++){
         if(arr[i] > max){
             max = arr[i];
+            index = i;
         }
     }
-    printf("%c", max);
+    printf("%c", index);
 
 }
