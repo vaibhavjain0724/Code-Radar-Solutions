@@ -19,6 +19,7 @@ int main(){
     // int m = 0;
     // char sp = ' ';
     int m = 0;
+    int k;
     if(strlen(a)>1){
         for(int i = 1; i < strlen(a); i++){
             if(a[i-1 != 32] && a[i] == 32){
