@@ -18,6 +18,7 @@ int main(){
     char *ans="";
     int k = 0;
     int m = 0;
+    char sp = ' ';
     if(strlen(a)>1){
         for(int i = 1; i < strlen(a); i++){
             if(a[i-1 != 32] && a[i] == 32){
@@ -25,7 +26,8 @@ int main(){
                 char *substr;
                 strncpy(substr, &a[m], k-m);
                 substr[k] = '\0';
-                ans = ans + ' ' + reverse(substr);
+                strcat(ans,sp);
+                strcat(ans,rev(substr));
             }
             m = i+1;
         }
