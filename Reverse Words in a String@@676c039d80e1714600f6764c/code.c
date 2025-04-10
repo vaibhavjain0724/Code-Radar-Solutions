@@ -6,6 +6,7 @@ char* reverse(char *a, int i, int j){
         char temp = a[i];
         a[i] = a[j];
         a[j] = temp;
+        i++; j--;
     }
     return a;
 }
@@ -24,17 +25,12 @@ int main(){
         for(int i = 1; i < strlen(a); i++){
             if(a[i-1 != 32] && a[i] == 32){
                 k = i-1;
-                // k = i;
-                // char *substr;
-                // strncpy(substr, &a[m], k-m);
-                // substr[k] = '\0';
-                // strcat(ans,sp);
-                // strcat(ans,rev(substr));
                 reverse(a,k,m);
             }
             m = i+1;
         }
     }
+
     printf("%s", a);
 
 }
