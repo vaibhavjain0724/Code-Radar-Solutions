@@ -4,8 +4,8 @@
 int main(){
     char a[100];
     char b[100];
-    scanf("%s",a);
-    scanf("%s",b);
+    scanf("%[^\n]",a);
+    scanf("%[^\n]",b);
     char c[200];
     int n = strlen(a);
     int m = strlen(b);
