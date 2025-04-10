@@ -7,6 +7,9 @@ int main(){
     scanf("%s", a);
     scanf("%s", b);
     int ha[27], hb[27];
+    for(int i = 0; i < 27; i++){
+        ha[i] = 0; hb[i]= 0;
+    }
     for(int i = 0; i < strlen(a); i++){
         ha[a[i]-96]++;
     }
