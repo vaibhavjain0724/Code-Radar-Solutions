@@ -25,7 +25,7 @@ int main(){
                 char *substr;
                 strncpy(substr, &a[m], k-m);
                 substr[k] = '\0';
-                ans = ans + " " + reverse(substr);
+                ans = ans + ' ' + reverse(substr);
             }
             m = i+1;
         }
