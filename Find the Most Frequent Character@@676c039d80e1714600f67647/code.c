@@ -11,7 +11,7 @@ int main(){
     }
     int l = 0;
     while(s[l] != '\0'){
-        arr[s[27]]++;
+        arr[s[l]]++;
         l++;
     }
     int max = 0;
