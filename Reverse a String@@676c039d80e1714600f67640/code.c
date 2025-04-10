@@ -9,8 +9,8 @@ int main(){
     int k = strlen(a);
     
     while(l <  k){
-        a[l] = a[n-1];
-        l++; n--; 
+        a[l] = a[k-1];
+        l++; k--; 
     }
     printf("%s",b);
     
