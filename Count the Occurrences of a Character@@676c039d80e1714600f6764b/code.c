@@ -8,7 +8,7 @@ int main(){
     scanf("%c",&b );
     int count = 0;
     for(int i = 0; i < strlen(a);i++){
-        if(a[i] = b){
+        if(a[i] == b){
             count++;
         }
     }
