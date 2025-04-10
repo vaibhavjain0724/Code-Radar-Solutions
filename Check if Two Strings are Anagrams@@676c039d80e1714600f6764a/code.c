@@ -20,6 +20,7 @@ int main(){
             ans= "No";
             break;
         }
+        l++;
     }
     printf("%s", ans);
 }
