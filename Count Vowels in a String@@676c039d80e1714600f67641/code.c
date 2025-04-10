@@ -10,8 +10,8 @@ int main(){
     int n = strlen(a);
     int count = 0;
     for(int i =0 ; i <n ; i ++){
-        tolower(a[i]);
-        if (a[i] == 'a' ||a[i] == 'e' ||a[i] == 'i' ||a[i] == 'o' ||a[i] == 'u'){
+       
+        if ( tolower(a[i]) == 'a' || tolower(a[i]) == 'e' || tolower(a[i]) == 'i' || tolower(a[i])] == 'o' || tolower(a[i]) == 'u'){
             count++;
         }
     }
