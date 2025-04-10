@@ -21,7 +21,7 @@ int main(){
     int f = 0; int s = 1;
     if(strlen(string) != 0){
         while(string[s] != '\0'){
-            if(string[f] != '32' && string[s] == '32'){
+            if(string[f] != 32 && string[s] == 32){
                 count++;
             }
             f++; s++;
