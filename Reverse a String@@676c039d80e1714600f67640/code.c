@@ -12,6 +12,6 @@ int main(){
         a[l] = a[k-1];
         l++; k--; 
     }
-    printf("%s",b);
+    printf("%s",a);
     
 }
