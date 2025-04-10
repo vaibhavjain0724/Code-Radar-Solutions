@@ -15,5 +15,6 @@ int main(){
     for(int i = n; i < m+n ; i++){
         c[i] = b[i-n];
     }
+    c[n+m] = '\0';
     printf("%s",c);
 }
