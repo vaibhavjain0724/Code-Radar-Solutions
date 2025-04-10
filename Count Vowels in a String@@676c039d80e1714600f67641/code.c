@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 int main(){
     char a[100];
@@ -9,7 +10,8 @@ int main(){
     int n = strlen(a);
     int count = 0;
     for(int i =0 ; i <n ; i ++){
-        if (a[i] == 'a' ||a[i] == 'e' ||a[i] == 'i' ||a[i] == 'o' ||a[i] == 'u' || a[i] == 'A' ||a[i] == 'E' ||a[i] == 'I' ||a[i] == 'O' ||a[i] == 'U'){
+        tolower(a[i]);
+        if (a[i] == 'a' ||a[i] == 'e' ||a[i] == 'i' ||a[i] == 'o' ||a[i] == 'u'){
             count++;
         }
     }
