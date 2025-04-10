@@ -9,10 +9,10 @@ int main(){
     int n = strlen(a);
     int m = strlen(b);
     for(int i = 0 ; i < n ; i++){
-        c[i] = first[i];
+        c[i] = a[i];
     }
     for(int i = n; i < m ; i++){
-        c[i] = second[i-n];
+        c[i] = b[i-n];
     }
     printf("%s",c);
 }
