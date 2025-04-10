@@ -12,7 +12,7 @@ int main(){
     }
     int e = n-1;
     int s = 0;
-    char ans[100] = "Yes";
+    char* ans = "Yes";
     while(s < e){
         if(str[s]!= str[e]){
             ans = "No";
