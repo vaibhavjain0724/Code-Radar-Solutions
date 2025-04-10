@@ -12,7 +12,7 @@ int main(){
     for(int i = 0 ; i < n ; i++){
         c[i] = a[i];
     }
-    for(int i = n; i < m ; i++){
+    for(int i = n; i < m+n ; i++){
         c[i] = b[i-n];
     }
     printf("%s",c);
