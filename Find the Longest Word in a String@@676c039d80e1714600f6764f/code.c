@@ -28,10 +28,10 @@ int main(){
             }
             count = 0;
         }
-        else if(str[k] == '\0'){
+        if(str[k] == '\0'){
             if(count > max_count){
-            ind1 = j; ind2 = i;
-            max_count= count;
+                ind1 = j; ind2 = i;
+                max_count= count;
             }
         }
         i++;
