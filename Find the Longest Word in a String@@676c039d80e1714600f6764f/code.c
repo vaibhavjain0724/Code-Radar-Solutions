@@ -12,8 +12,8 @@ int main(){
     int ind1; int ind2;
     while(str[i] != '\0'){
         if(i>= 1){
-            if(arr[i] != 32 && arr[i-1] == 32){
-                arr[j] == arr[i];
+            if(str[i] != 32 && str[i-1] == 32){
+                str[j] =str[i];
             }
         }
         if(str[i] != 32 ){
