@@ -10,7 +10,6 @@ int main(){
     int i = 0; 
     int j = 0;
     int ind1 = 0; int ind2 = 0;
-    int ind1; int ind2;
     while(str[i] != '\0'){
         if(str[i] != 32 ){
             if(i > 0 && str[i-1]== 32){
