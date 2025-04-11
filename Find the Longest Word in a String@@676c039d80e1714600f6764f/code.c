@@ -34,6 +34,7 @@ int main(){
             }
         }
         i++;
+        k++;
 
     }
     char ans[100];
