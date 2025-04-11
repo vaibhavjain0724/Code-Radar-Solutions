@@ -27,6 +27,7 @@ int main(){
             }
             count = 0;
         }
+        i++;
 
     }
     char ans[100];
