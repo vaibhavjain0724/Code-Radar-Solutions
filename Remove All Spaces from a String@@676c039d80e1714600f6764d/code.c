@@ -5,7 +5,7 @@ int main(){
     char str[100];
 
     fgets(str,sizeof(str), stdin);
-    char *ans;
+    char ans[100];
     int j = 0;
     for(int i = 0; i < strlen(str); i ++){
         if(str[i] != 32){
@@ -13,5 +13,6 @@ int main(){
             j++;
         }
     }
+    ans[j] = '\0';
     printf("%s", ans);
 }
