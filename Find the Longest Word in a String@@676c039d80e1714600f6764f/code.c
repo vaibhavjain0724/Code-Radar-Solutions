@@ -10,14 +10,15 @@ int main(){
     int i = 0; 
     int j = 0;
     int ind1 = 0; int ind2 = 0;
-    while(str[i] != '\0'){
+    while(str[i-1] != '\0'){
         if(str[i] != 32 ){
             if(i > 0 && str[i-1]== 32){
                 j = i;
             }
             count++;
         }
-        else if(str[i] == 32){
+        
+        else if(str[i] == 32 || str[i] == '\0'){
             if(count > max_count){
                 ind1 = j; ind2 = i-1;
                 max_count= count;
