@@ -29,9 +29,9 @@ int main(){
 
     }
     char ans[100];
-    for(int i = 0; i < ind2 - ind1; i++){
+    for(int i = 0; i <= ind2 - ind1; i++){
         ans[i] = str[ind1+i];
     } 
-    ans[ind2-ind1] = '\0';
+    ans[ind2-ind1+1] = '\0';
     printf("%s", ans);   
 }
